@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right top, #65dfc9, #6cbbed );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass{
+    height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255, 255,255, 0.7), rgba(255, 255, 255, 0.3)  );
+    border-radius: 15px;
+    z-index: 1;
+    backdrop-filter: blur(9rem);
+    display: flex;
+}
+
+
+.circle1, .circle2{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:white;
+}
+
+.circle1{
+    top: 7%;
+    left: 15%;
+}
+
+.circle2{
+    bottom: 5%;
+    right: 15%;
+}
+
+.profile{
+    width: 25%;
+    background-color: rgba(245, 245, 245, 0.336);
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.movies{
+    height: 100%;
+    width: 75%;
+    border-radius: 0px 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.row1{
+    height:23vh ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.row1 > img{
+      width: 110px;
+      height: 120px;
+}
+
+
+.row2{
+    height:23vh ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row2 > img{
+    width: 110px;
+      height: 120px;
+}
+
+.row3{
+    height:23vh ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row3 > img{
+    width: 110px;
+      height: 120px;
+}
+
+header{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.avatar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sage{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+}
+
+.name{
+    width: 100%;
+    height: 45vh;
+}
+
+.details{
+    margin-left: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icons{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons > img{
+    height: 30px;
+    width: 30px;
+}
+
+.movienames{
+    width: 620px;
+    height: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 37%;
+    left: 34%;
+}
+
+.movienames2{
+    width: 620px;
+    height: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 61%;
+    left: 34%;
+    
+}
+
+.movienames3{
+    width: 620px;
+    height: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 12%;
+    left: 33%;
+    margin-top: 1px;
+    
+}
+.got{
+    margin-right: 8px;
+}
+
+.legacies{
+    margin-right: 25px;
+}
+
+.lis{
+    margin-right: 3px;
+}
+
+.power{
+    margin-left: 23px;
+}
+
+.prison{
+    margin-left: 7px;
+}
+
+.the100{margin-right: 13px;
+
+}
+
+.blacklist{
+    margin-left: 15px;
+}
+
+.originals{
+    margin-right: 27px;
+}
+
+.vikings{
+    margin-right: 6px;
+}
